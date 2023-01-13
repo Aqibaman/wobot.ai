@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,76 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+.App-logo {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.button1 {
+  width: 100%;
+  appearance: button;
+  background-color: #FAF9F6;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 2px solid #3b82f6;
+  border-radius: 0.3rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button1:focus:not(:focus-visible),
+.button1:focus {
+  outline: 0;
+}
+
+.button1:hover {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+  color: white;
+}
+
+.button1:focus {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+  color: white;
+}
+
+.button1:active {
+  background-color: #3b82f6;
+  background-image: none;
+  border-color: #3b82f6;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+  color: white;
+}
+
+.button1:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+  color: white;
+}
+
+.button1:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+  color: white;
 }
