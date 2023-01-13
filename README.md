@@ -24,4 +24,4 @@ industry expert.
 
 #### What is this project?
 
-THis project is build on a simple fromtend information gathering system.
+This project is build on a simple frontend information gathering system.
